@@ -1,0 +1,739 @@
+{
+ "query": "javascrpit framwork",
+ "results": [
+  {
+   "template": "default.html",
+   "title": "JavaScript frameworks and libraries - Learn web development | MDN",
+   "content": "13 aug. 2026 ... ... framework experience. This set of articles provides a ... Each major JavaScript framework has a different approach to updating ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    1
+   ],
+   "score": 1.0,
+   "category": "general",
+   "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "developer.mozilla.org",
+    "/en-US/docs/Learn_web_development/Core/Frameworks_libraries",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Comparison of JavaScript-based web frameworks - Wikipedia",
+   "content": "Contents · General information · High-level framework comparison · Features · Browser support · Notes.",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    3
+   ],
+   "score": 0.3333333333333333,
+   "category": "general",
+   "url": "https://en.wikipedia.org/wiki/Comparison_of_JavaScript-based_web_frameworks",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "en.wikipedia.org",
+    "/wiki/Comparison_of_JavaScript-based_web_frameworks",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Whats the most 'robust' javascript framework that doesnt reinvent the ...",
+   "content": "18 dec. 2023 ... For a robust, stable framework, Ext JS is a great choice. It's been around for years, doesn't change every few weeks, and has tons of built-in ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    8
+   ],
+   "score": 0.125,
+   "category": "general",
+   "url": "https://www.reddit.com/r/webdev/comments/18l3mug/whats_the_most_robust_javascript_framework_that/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "www.reddit.com",
+    "/r/webdev/comments/18l3mug/whats_the_most_robust_javascript_framework_that/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Stimulus: A modest JavaScript framework for the HTML you already ...",
+   "content": "Stimulus is a JavaScript framework with modest ambitions. It doesn't seek to take over your entire front-end—in fact, it's not concerned with rendering HTML at ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    20
+   ],
+   "score": 0.05,
+   "category": "general",
+   "url": "https://stimulus.hotwired.dev/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "stimulus.hotwired.dev",
+    "/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "6 Best JavaScript Frameworks for 2026 - Strapi",
+   "content": "31 aug. 2026 ... Established frameworks like React, Angular, Vue, and Next. · Framework agnosticism is now common practice: you can select specific tools for ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRnWz52aRpB6nERzJfwIeOZpDKSOvYSTGAd67F15Zn4pfo7UZIJvYo4YBib",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    2
+   ],
+   "score": 0.5,
+   "category": "general",
+   "url": "https://strapi.io/blog/best-javascript-frameworks",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "strapi.io",
+    "/blog/best-javascript-frameworks",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Front-end Frameworks - State of JavaScript 2025",
+   "content": "Setting aside Astro, which doesn't quite belong to the front-end framework category, and Ember, which has been around for a while now, the most exciting new ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjzL7XQS2iwF_7-w2zHAY26nVDvEPmPzCTcRbYuapyIq4Fnp6dNOXq0anI",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    4
+   ],
+   "score": 0.25,
+   "category": "general",
+   "url": "https://2025.stateofjs.com/en-US/libraries/front-end-frameworks/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "2025.stateofjs.com",
+    "/en-US/libraries/front-end-frameworks/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Which JavaScript Framework Should I Learn? - Coursera",
+   "content": "12 sep. 2025 ... Node.js is considered easy to learn without a large learning curve, making it a great option if you're a front-end developer who wants to ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJ78OnySDjHoZ8Cv6nouAWYziyaWsZIsI8VYAClQcGqdBZT0tNcWpvZsw",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    5
+   ],
+   "score": 0.2,
+   "category": "general",
+   "url": "https://www.coursera.org/articles/which-javascript-framework-should-i-learn",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "www.coursera.org",
+    "/articles/which-javascript-framework-should-i-learn",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "17 Best JavaScript Frameworks (2026): Pick Your Fav. - TestMu AI",
+   "content": "26 juni 2026 ... js is an open-source JavaScript framework designed for building large-scale, ambitious web applications with a strong emphasis on stability and ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ2QBIPQCVhE8AKqe23tAOT9VKSU3RJOIepIYafnCpXV459N-643Y0k6AtJ",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    6
+   ],
+   "score": 0.16666666666666666,
+   "category": "general",
+   "url": "https://www.testmuai.com/blog/best-javascript-frameworks/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "www.testmuai.com",
+    "/blog/best-javascript-frameworks/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Vue.js - The Progressive JavaScript Framework | Vue.js",
+   "content": "The Progressive JavaScript Framework · Versatile. A rich, incrementally adoptable ecosystem that scales between a library and a full-featured framework. · User- ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR--WtyDWTV0e5pmfji-bOirTc8uFwIqExPc0QZfP4FIazpYEyLbapwfmPY",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    7
+   ],
+   "score": 0.14285714285714285,
+   "category": "general",
+   "url": "https://vuejs.org/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "vuejs.org",
+    "/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Best JavaScript Frameworks 2026 for Web Development",
+   "content": "10 jan. 2026 ... A framework in JavaScript is a well-organized collection of pre-written JavaScript code libraries. These libraries facilitate and accelerate the ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyDieB-V5gPchLx1j9PGphccuOi7G--8eeA6BxyXqzmljqHhwAee3OqU5l",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    9
+   ],
+   "score": 0.1111111111111111,
+   "category": "general",
+   "url": "https://www.seasiainfotech.com/blog/best-javascript-frameworks",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "www.seasiainfotech.com",
+    "/blog/best-javascript-frameworks",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Meteor by Galaxy - The full-stack JavaScript framework for real-time ...",
+   "content": "Why Meteor? · Real-time Updates. Develop apps with real-time features like chats and collaborative apps with ease. · RPC APIs. Connect back-end and front-end ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRmoW1y6bvPa_etT1Twji-q38mRpwEVaGQIEihvdZQGDAvptuz8ElfTX1M",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    10
+   ],
+   "score": 0.1,
+   "category": "general",
+   "url": "https://www.meteor.com/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "www.meteor.com",
+    "/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "9 open source JavaScript frameworks for front-end web development",
+   "content": "React may now be the leading JavaScript framework in terms of the number of developers, but Angular is close behind. In fact, while React is the more popular ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQrzxDb7yesm81F_Aaw1Y0ZJ4HAJzsGuc9KRqk_A26W-PxAB6af7ktxs0_9",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    11
+   ],
+   "score": 0.09090909090909091,
+   "category": "general",
+   "url": "https://opensource.com/article/20/5/open-source-javascript-frameworks",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "opensource.com",
+    "/article/20/5/open-source-javascript-frameworks",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Building an app? These are the best JavaScript frameworks",
+   "content": "30 jan. 2025 ... Phaser is an open source, 2D game framework written in JavaScript. It is widely regarded as the best option for building browser-based games. It ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJNq-bxprxPBpp9xfwTK-eSpG9B8Jb7A-eH0KBaYyajmiYVgqhv5w5uYU",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    12
+   ],
+   "score": 0.08333333333333333,
+   "category": "general",
+   "url": "https://www.contentful.com/blog/best-javascript-frameworks/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "www.contentful.com",
+    "/blog/best-javascript-frameworks/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "NestJS - A progressive Node.js framework",
+   "content": "NestJS is a TypeScript framework for building efficient, scalable Node.js backends, from a small API in one file to enterprise-grade systems with many ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSTJRbR3tf-vP834SIeY7jvhTv3bP2tYALhorQTbvM_grY5bqiPfckpoDr4",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    13
+   ],
+   "score": 0.07692307692307693,
+   "category": "general",
+   "url": "https://nestjs.com/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "nestjs.com",
+    "/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Svelte • Web development for the rest of us",
+   "content": "Svelte is a UI framework that uses a compiler to let you write ... JavaScript. It's a love letter to web development. But don't take our word ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuI6Du4ncxy5cBFmestkT9Nwl-xVxdhrFhrUEQdj0RL4OflZ5ogfKzfLW4",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    14
+   ],
+   "score": 0.07142857142857142,
+   "category": "general",
+   "url": "https://svelte.dev/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "svelte.dev",
+    "/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Astro",
+   "content": "Astro is a JavaScript web framework optimized for building fast, content-driven websites. Server-First. Astro improves website performance by rendering ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcREztko9Ua-hNDOxs4kO_W0FrqJe1SLxAeYmo1u3UMs8RtEc_ChHVDT9bcU",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    15
+   ],
+   "score": 0.06666666666666667,
+   "category": "general",
+   "url": "https://astro.build/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "astro.build",
+    "/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Introduction to JavaScript Frameworks - YouTube",
+   "content": "20 maj 2025 ... Have you ever wondered why it feels like there are so many JavaScript Frameworks? In this video we will look at 5 popular frameworks: React, ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTfGnehH0V3PuLEH8xfxfTvLqI387_iRyeGzhh1DODNrDvfzVwRYccIJdk",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    16
+   ],
+   "score": 0.0625,
+   "category": "general",
+   "url": "https://www.youtube.com/watch?v=DAci3O2j31o",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "www.youtube.com",
+    "/watch",
+    "",
+    "v=DAci3O2j31o",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Framework main features - Learn web development | MDN",
+   "content": "11 apr. 2025 ... Each major JavaScript framework has a different approach to updating the DOM, handling browser events, and providing an enjoyable developer ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT1Ysk-nktFD4PD6MqwDnc12SLdh1BsQ_DVqUy90EzFpLW9DS8vtH5dFInc",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    17
+   ],
+   "score": 0.058823529411764705,
+   "category": "general",
+   "url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "developer.mozilla.org",
+    "/en-US/docs/Learn_web_development/Core/Frameworks_libraries/Main_features",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "The Lightweight JavaScript Framework Renaissance of 2026",
+   "content": "24 mars 2026 ... js is a compiler-based framework like Svelte, but its output is fine-grained reactive updates with no virtual DOM. Performance is exceptional.",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTtYhUp7oGfwLwwk8-K2S4B7lMa3Ba3yJTOs3hZKq-CuqXtmtSsUA5l7rI",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    18
+   ],
+   "score": 0.05555555555555555,
+   "category": "general",
+   "url": "https://dev.to/eugenioenko/the-lightweight-javascript-framework-renaissance-of-2026-4ee0",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "dev.to",
+    "/eugenioenko/the-lightweight-javascript-framework-renaissance-of-2026-4ee0",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Next.js by Vercel - The React Framework",
+   "content": "Next.js by Vercel is the full-stack React framework for the web ... Turbopack→An incremental bundler optimized for JavaScript and TypeScript, written in Rust, ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXkQSeawbk4RM45Pc-RKXBFRWPwfeTp4Mj7_r5OzDT-LNeCaA40CKiHLjr",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    19
+   ],
+   "score": 0.05263157894736842,
+   "category": "general",
+   "url": "https://nextjs.org/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "nextjs.org",
+    "/",
+    "",
+    "",
+    ""
+   ]
+  }
+ ],
+ "answers": [],
+ "corrections": [],
+ "infoboxes": [],
+ "suggestions": [],
+ "unresponsive_engines": [
+  [
+   "brave",
+   "Suspended: too many requests"
+  ],
+  [
+   "duckduckgo",
+   "CAPTCHA"
+  ]
+ ]
+}

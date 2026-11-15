@@ -1,0 +1,18 @@
+{
+ "query": "zxqvbnmplkjhgf qqqwwweeerrrttt zzzyyyxxx",
+ "results": [],
+ "answers": [],
+ "corrections": [],
+ "infoboxes": [],
+ "suggestions": [],
+ "unresponsive_engines": [
+  [
+   "brave",
+   "Suspended: too many requests"
+  ],
+  [
+   "duckduckgo",
+   "CAPTCHA"
+  ]
+ ]
+}

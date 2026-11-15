@@ -1,0 +1,739 @@
+{
+ "query": "hono web framework",
+ "results": [
+  {
+   "template": "default.html",
+   "title": "Hono - Web framework built on Web Standards",
+   "content": "HonoWeb application framework · Ultrafast & Lightweight · Multi-runtime · Batteries Included · Delightful DX. Super clean APIs. First-class TypeScript support.",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    1
+   ],
+   "score": 1.0,
+   "category": "general",
+   "url": "https://hono.dev/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Web framework built on Web Standards - Hono",
+   "content": "6 nov. 2026 ... Hono - means flame in Japanese - is a small, simple, and ultrafast web framework built on Web Standards. It works on any JavaScript runtime: ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    2
+   ],
+   "score": 0.5,
+   "category": "general",
+   "url": "https://hono.dev/docs/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "The story of web framework Hono, from the creator of Hono",
+   "content": "17 okt. 2024 ... The story of web framework Hono, from the creator of Hono ... Hono is a fast, lightweight web framework that runs anywhere JavaScript does, built ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQLSFXFhIEtFTSkzSxO--5Eq-VgsLBU5Jm_5YIEBOZluljD1LdtBF8rrkpx",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    4
+   ],
+   "score": 0.25,
+   "category": "general",
+   "url": "https://blog.cloudflare.com/the-story-of-web-framework-hono-from-the-creator-of-hono/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "blog.cloudflare.com",
+    "/the-story-of-web-framework-hono-from-the-creator-of-hono/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Getting Started - Hono",
+   "content": "6 nov. 2026 ... Web framework built on Web Standards for Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, Node.js, and others.",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    5
+   ],
+   "score": 0.2,
+   "category": "general",
+   "url": "https://hono.dev/docs/getting-started/basic",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/getting-started/basic",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "How to Build Production-Ready Web Apps with the Hono Framework",
+   "content": "8 sep. 2025 ... How to Set Up a Professional Hono Project. You can get started with Hono using a single command. This will create a new project directory with a ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMS07qXS4MSHfJ2-r_0E5jzG0SKcmZe_hYhMmOyCEB_kZ0aD3tJ_JVyWNw",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    6
+   ],
+   "score": 0.16666666666666666,
+   "category": "general",
+   "url": "https://www.freecodecamp.org/news/build-production-ready-web-apps-with-hono/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "www.freecodecamp.org",
+    "/news/build-production-ready-web-apps-with-hono/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Hono: The Fastest Web Framework - Medium",
+   "content": "7 aug. 2025 ... Summary · Hono is a modern web framework for JavaScript and TypeScript. · It's fast, lightweight, and supports multiple runtimes. · It uses an ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRQoXn5NGcmuSj3QWu7VBJKR87z55rkEkN1W_WbIt0yitHBnYVYnjjQbsc",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    8
+   ],
+   "score": 0.125,
+   "category": "general",
+   "url": "https://medium.com/@praveenb0927/hono-the-fastest-web-framework-a5acb8e2aa5d",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "medium.com",
+    "/@praveenb0927/hono-the-fastest-web-framework-a5acb8e2aa5d",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Hono - When to Use & Alternatives - Paralect",
+   "content": "Hono is a lightweight web framework built on Web Standards that runs on any JavaScript runtime — Cloudflare Workers, Deno, Bun, AWS Lambda, Vercel, and Node.js.",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT6OYFmBrBFe6wwyHjy90SZZxyuu5zfEPG-bsfUNnKZGBZ3zV8kiV8svXXL",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    9
+   ],
+   "score": 0.1111111111111111,
+   "category": "general",
+   "url": "https://www.paralect.com/stack/hono",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "www.paralect.com",
+    "/stack/hono",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Benchmarks - Hono",
+   "content": "6 nov. 2026 ... Web framework built on Web Standards for Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, Node.js, and others.",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    10
+   ],
+   "score": 0.1,
+   "category": "general",
+   "url": "https://hono.dev/docs/concepts/benchmarks",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/concepts/benchmarks",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Hono: The Best Backend Framework you aren't using - YouTube",
+   "content": "23 okt. 2026 ... Hono is a lightweight, fast, and incredibly versatile web framework for building modern backends with JavaScript and TypeScript.",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQeLuXOOG70S5MfnJaGaSDjgS5nB_-rR0zdCNF0fAENUHBiiJhu7s38gmY",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    12
+   ],
+   "score": 0.08333333333333333,
+   "category": "general",
+   "url": "https://www.youtube.com/watch?v=phbyRW8qPTc",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "www.youtube.com",
+    "/watch",
+    "",
+    "v=phbyRW8qPTc",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "GitHub - honojs/hono: Web framework built on Web Standards",
+   "content": "Repository files navigation ... Hono - means flame in Japanese - is a small, simple, and ultrafast web framework built on Web Standards. It works on any ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    3
+   ],
+   "score": 0.3333333333333333,
+   "category": "general",
+   "url": "https://github.com/honojs/hono",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "github.com",
+    "/honojs/hono",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Hono: a modern web framework for JavaScript - Flavio Copes",
+   "content": "8 aug. 2026 ... Hono: a modern web framework for JavaScript ... Hono is a lightweight JavaScript web framework built on Web Standards. Create an app with Bun, ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    7
+   ],
+   "score": 0.14285714285714285,
+   "category": "general",
+   "url": "https://flaviocopes.com/hono/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "flaviocopes.com",
+    "/hono/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Hono Web Framework | Aalto OpenCS",
+   "content": "Hono is a lightweight web framework for Deno that allows mapping HTTP methods and paths to handler functions. Dependencies are best managed with deno.json ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    11
+   ],
+   "score": 0.09090909090909091,
+   "category": "general",
+   "url": "https://fitech101.aalto.fi/en/courses/web-software-development-v1/part-3/4-hono-web-framework",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "fitech101.aalto.fi",
+    "/en/courses/web-software-development-v1/part-3/4-hono-web-framework",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Why is Hono more performant? Exploring its weaknesses ... - Reddit",
+   "content": "17 feb. 2025 ... The main difference is Hono uses web-compat APIs. Which means it works well in web compatible runtimes (workerd for example). But it is mainly ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    13
+   ],
+   "score": 0.07692307692307693,
+   "category": "general",
+   "url": "https://www.reddit.com/r/node/comments/1irkhk8/why_is_hono_more_performant_exploring_its/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "www.reddit.com",
+    "/r/node/comments/1irkhk8/why_is_hono_more_performant_exploring_its/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Nowhere there's any explanation of what this is. Web standard? Fast ...",
+   "content": "9 feb. 2024 ... > Hono … is a small, simple, and ultrafast web framework for the Edges. It works on any JavaScript runtime: Cloudflare Workers, Fastly Compute, ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    19
+   ],
+   "score": 0.05263157894736842,
+   "category": "general",
+   "url": "https://news.ycombinator.com/item?id=39315532",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "news.ycombinator.com",
+    "/item",
+    "",
+    "id=39315532",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Hono.js: The Ultra-Fast Web Framework That Runs Anywhere",
+   "content": "24 juni 2026 ... Hono is built on top of Web Standards (the Fetch API). This means it doesn't rely on Node.js internal modules (like http or https ). Instead, it ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    20
+   ],
+   "score": 0.05,
+   "category": "general",
+   "url": "https://medium.com/@justmhiu/hono-js-the-ultra-fast-web-framework-that-runs-anywhere-34fd7fa7742c",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "medium.com",
+    "/@justmhiu/hono-js-the-ultra-fast-web-framework-that-runs-anywhere-34fd7fa7742c",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Hono.js in 2026: The Fastest Web Framework for Cloudflare ...",
+   "content": "26 mars 2026 ... Hono.js in 2026: The Fastest Web Framework for Cloudflare Workers (and Why It's Going Mainstream) ... If you haven't heard of Hono.js yet, you're ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQAZRI1E8wYO7p0rHRcCHITVCSPwTnIG_dNU1F9OazeRTjM-24kTrBtkLmv",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    14
+   ],
+   "score": 0.07142857142857142,
+   "category": "general",
+   "url": "https://dev.to/ottoaria/honojs-in-2026-the-fastest-web-framework-for-cloudflare-workers-and-why-its-going-mainstream-2aap",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "dev.to",
+    "/ottoaria/honojs-in-2026-the-fastest-web-framework-for-cloudflare-workers-and-why-its-going-mainstream-2aap",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Why I Chose Hono over ASP.NET Core - Davor Pihač",
+   "content": "1 apr. 2026 ... C# was my first professional love. ASP.NET Core is a fantastic framework, but for APIs, Hono is my new go-to. Here's why.",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRae9bJ6Qx1bVToXVfTKLW-7irWkC-S-6_pmr1pjBfmOBxRXyKJvKLELP_s",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    15
+   ],
+   "score": 0.06666666666666667,
+   "category": "general",
+   "url": "https://dpihac.dev/blog/why-i-chose-hono-over-aspnet-core/",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "dpihac.dev",
+    "/blog/why-i-chose-hono-over-aspnet-core/",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Nitro vs Hono vs H3: TypeScript Server Frameworks for 2026",
+   "content": "10 apr. 2026 ... Hono is an independent framework created by Yusuke Wada. It shares the same Web Standards foundation (Request/Response) but comes from a ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR6PrHoeyDFolS17khnu67m-B20zUBfVDsv2gcMvlallPhokBL1jq85IZ4",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    16
+   ],
+   "score": 0.0625,
+   "category": "general",
+   "url": "https://kanopylabs.com/blog/nitro-vs-hono-vs-h3-server-frameworks",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "kanopylabs.com",
+    "/blog/nitro-vs-hono-vs-h3-server-frameworks",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Hono Web Framework Walkthrough - YouTube",
+   "content": "17 aug. 2025 ... Build a production-ready, blazing-fast API in minutes with Hono and deploy it to Cloud Run without ever writing a Dockerfile.",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT38ODUR3b05vJW80EwobKrPtwJjX73bdrS38ArNLmS0qp0TowbWuBVdeE&s=0",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    17
+   ],
+   "score": 0.058823529411764705,
+   "category": "general",
+   "url": "https://www.youtube.com/shorts/9v-HggY9XgQ",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "www.youtube.com",
+    "/shorts/9v-HggY9XgQ",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Hono Web Framework API Guide | Claude Code Skill - MCP Market",
+   "content": "Hono Web Framework ... Build ultra-fast, type-safe web APIs and full-stack applications across Cloudflare Workers, Bun, Deno, and Node.js. ... The Hono skill equips ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRQkufcRe7o_6lsnumBEnxQFFHoGt5fP8yIxYZwbaQ3NgKlOg325UdSCrQ",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    18
+   ],
+   "score": 0.05555555555555555,
+   "category": "general",
+   "url": "https://mcpmarket.com/tools/skills/hono-web-framework-1781795563990",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "mcpmarket.com",
+    "/tools/skills/hono-web-framework-1781795563990",
+    "",
+    "",
+    ""
+   ]
+  }
+ ],
+ "answers": [],
+ "corrections": [],
+ "infoboxes": [],
+ "suggestions": [],
+ "unresponsive_engines": [
+  [
+   "brave",
+   "Suspended: too many requests"
+  ],
+  [
+   "duckduckgo",
+   "CAPTCHA"
+  ]
+ ]
+}

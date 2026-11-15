@@ -1,0 +1,27 @@
+# cse-compat in front of a private SearXNG. Not run by the author (no Docker where it was built);
+# the same settings were tested with both services started by hand. See README "With SearXNG".
+#
+#   SEARXNG_SECRET=$(openssl rand -hex 32) CSE_API_KEYS=change-me docker compose up -d
+#   curl 'http://127.0.0.1:8080/customsearch/v1?key=change-me&cx=web&q=hono'
+services:
+  cse-compat:
+    build: .
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      CSE_BACKEND: searxng
+      SEARXNG_URL: http://searxng:8080
+      CSE_API_KEYS: ${CSE_API_KEYS:?set CSE_API_KEYS}
+      CSE_DAILY_QUOTA: ${CSE_DAILY_QUOTA:-0}
+    # No healthcheck on SearXNG: the first searches after `up` can be a 503 while it starts.
+    depends_on:
+      - searxng
+    restart: unless-stopped
+
+  searxng:
+    image: docker.io/searxng/searxng:${SEARXNG_VERSION:-latest}
+    environment:
+      SEARXNG_SECRET: ${SEARXNG_SECRET:?set SEARXNG_SECRET}
+    volumes:
+      - ./deploy/searxng/settings.yml:/etc/searxng/settings.yml:ro
+    restart: unless-stopped

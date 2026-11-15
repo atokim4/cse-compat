@@ -1,0 +1,12 @@
+# SearXNG settings for cse-compat. The same file was used for the recorded fixtures and the live client
+# checks (SearXNG git 2d500cb6, run from source). The secret comes from SEARXNG_SECRET in the environment.
+use_default_settings: true
+general:
+  enable_metrics: false
+search:
+  # cse-compat reads /search?format=json; without json here SearXNG answers 403.
+  formats: [html, json]
+server:
+  # Only cse-compat talks to this instance, from inside the compose network.
+  limiter: false
+  image_proxy: false

@@ -1,0 +1,220 @@
+[
+  {
+    "url": "https://docs.larkqueue.example/guide/getting-started",
+    "title": "Getting started - Larkqueue docs",
+    "snippet": "Install the package, create a queue and push your first job in under five minutes.",
+    "language": "en",
+    "publishedAt": "2026-01-10"
+  },
+  {
+    "url": "https://docs.larkqueue.example/guide/retries",
+    "title": "Retries and backoff - Larkqueue docs",
+    "snippet": "Failed jobs are retried with exponential backoff; set maxAttempts per job or per queue.",
+    "language": "en",
+    "publishedAt": "2026-02-11"
+  },
+  {
+    "url": "https://docs.larkqueue.example/guide/rate-limits",
+    "title": "Rate limits - Larkqueue docs",
+    "snippet": "Limit how many jobs a worker takes per second with a token bucket shared through Postgres.",
+    "language": "en",
+    "publishedAt": "2026-03-12"
+  },
+  {
+    "url": "https://docs.larkqueue.example/guide/scheduling",
+    "title": "Scheduled jobs - Larkqueue docs",
+    "snippet": "Run a job later or on a cron expression; schedules survive a worker restart.",
+    "language": "en",
+    "publishedAt": "2026-04-13"
+  },
+  {
+    "url": "https://docs.larkqueue.example/guide/dead-letter",
+    "title": "Dead letter queue - Larkqueue docs",
+    "snippet": "Jobs that exhaust their retries move to a dead letter table you can inspect and replay.",
+    "language": "en",
+    "publishedAt": "2026-05-14"
+  },
+  {
+    "url": "https://docs.larkqueue.example/guide/observability",
+    "title": "Metrics and tracing - Larkqueue docs",
+    "snippet": "Workers export queue depth, job latency and failure counts as OpenTelemetry metrics.",
+    "language": "en",
+    "publishedAt": "2026-06-15"
+  },
+  {
+    "url": "https://docs.larkqueue.example/guide/migrations",
+    "title": "Upgrading from v2 - Larkqueue docs",
+    "snippet": "v3 renames the jobs table and drops the Redis driver; run the bundled migration first.",
+    "language": "en",
+    "publishedAt": "2026-07-16"
+  },
+  {
+    "url": "https://docs.larkqueue.example/guide/postgres",
+    "title": "Postgres driver - Larkqueue docs",
+    "snippet": "Jobs are claimed with SELECT FOR UPDATE SKIP LOCKED, so many workers share one table safely.",
+    "language": "en",
+    "publishedAt": "2026-08-17"
+  },
+  {
+    "url": "https://docs.larkqueue.example/guide/testing",
+    "title": "Testing your workers - Larkqueue docs",
+    "snippet": "An in-memory driver runs jobs synchronously in tests, with no database required.",
+    "language": "en",
+    "publishedAt": "2026-09-18"
+  },
+  {
+    "url": "https://docs.larkqueue.example/guide/deploy",
+    "title": "Deploying workers - Larkqueue docs",
+    "snippet": "Run workers as a separate process; graceful shutdown waits for in-flight jobs.",
+    "language": "en",
+    "publishedAt": "2026-01-10"
+  },
+  {
+    "url": "https://docs.larkqueue.example/guide/webhooks",
+    "title": "Webhook jobs - Larkqueue docs",
+    "snippet": "Deliver outgoing webhooks as jobs with signed payloads and automatic retries.",
+    "language": "en",
+    "publishedAt": "2026-02-11"
+  },
+  {
+    "url": "https://docs.larkqueue.example/guide/priorities",
+    "title": "Job priorities - Larkqueue docs",
+    "snippet": "Higher priority jobs are claimed first; equal priorities keep FIFO order.",
+    "language": "en",
+    "publishedAt": "2026-03-12"
+  },
+  {
+    "url": "https://blog.larkqueue.example/2026/postgres-queue-benchmark",
+    "title": "Benchmarking a Postgres job queue at 5k jobs per second",
+    "snippet": "Sample post: how SKIP LOCKED behaves under contention, with the test setup and the numbers.",
+    "language": "en",
+    "publishedAt": "2026-10-02",
+    "thumbnail": {
+      "url": "https://blog.larkqueue.example/img/bench-thumb.png",
+      "width": 310,
+      "height": 163
+    }
+  },
+  {
+    "url": "https://blog.larkqueue.example/2026/why-we-dropped-redis",
+    "title": "Why the v3 release dropped the Redis driver",
+    "snippet": "Sample post: one storage engine to test, back up and reason about instead of two.",
+    "language": "en",
+    "publishedAt": "2026-11-01"
+  },
+  {
+    "url": "https://forum.larkqueue.example/t/retries-not-firing/412",
+    "title": "Retries not firing after worker restart",
+    "snippet": "Sample thread: jobs stuck in running state after a crash; the fix is a visibility timeout.",
+    "language": "en",
+    "publishedAt": "2026-08-21"
+  },
+  {
+    "url": "https://forum.larkqueue.example/t/cron-timezone/377",
+    "title": "Cron schedules ignore my timezone",
+    "snippet": "Sample thread: schedules use UTC unless you pass tz; daylight saving edge cases explained.",
+    "language": "en",
+    "publishedAt": "2026-05-14"
+  },
+  {
+    "url": "https://docs.larkqueue.example/ru/guide/retries",
+    "title": "Повторы и экспоненциальная задержка - Larkqueue",
+    "snippet": "Неудачные задачи повторяются с экспоненциальной задержкой; maxAttempts задаётся для задачи или очереди.",
+    "language": "ru",
+    "publishedAt": "2026-07-30"
+  },
+  {
+    "url": "https://docs.larkqueue.example/de/guide/retries",
+    "title": "Wiederholungen und Backoff - Larkqueue",
+    "snippet": "Fehlgeschlagene Jobs werden mit exponentiellem Backoff wiederholt; maxAttempts pro Job oder Queue.",
+    "language": "de",
+    "publishedAt": "2026-07-30"
+  },
+  {
+    "url": "https://docs.larkqueue.example/files/larkqueue-v3-reference.pdf",
+    "title": "Larkqueue v3 API reference (PDF)",
+    "snippet": "Printable reference of every queue, worker and job option in the v3 release.",
+    "language": "en",
+    "mime": "application/pdf",
+    "publishedAt": "2026-09-15"
+  },
+  {
+    "url": "https://www.mirror-site.example/larkqueue/guide/retries",
+    "title": "Retries and backoff - Larkqueue docs (mirror)",
+    "snippet": "Failed jobs are retried with exponential backoff; set maxAttempts per job or per queue.",
+    "language": "en"
+  },
+  {
+    "url": "https://jobs.board.example/listing/9921",
+    "title": "Backend engineer, queues and Postgres",
+    "snippet": "Sample listing: build job pipelines on Postgres; remote, full time.",
+    "language": "en",
+    "country": "us",
+    "publishedAt": "2026-11-10"
+  },
+  {
+    "url": "https://news.uz-tech.example/larkqueue-meetup",
+    "title": "Larkqueue meetup notes",
+    "snippet": "Sample article: talks on queue design and retries from a local meetup.",
+    "language": "en",
+    "country": "uz",
+    "publishedAt": "2026-11-12"
+  },
+  {
+    "url": "https://casino-ads.example/queue",
+    "title": "Spin the queue: win big",
+    "snippet": "Sample adult/unsafe page used to test SafeSearch filtering of retries and bonuses.",
+    "adult": true
+  },
+  {
+    "url": "https://docs.larkqueue.example/img/architecture.png",
+    "title": "Larkqueue architecture diagram",
+    "snippet": "Sample image: architecture of a Postgres-backed job queue with retries.",
+    "mime": "image/png",
+    "thumbnail": {
+      "url": "https://docs.larkqueue.example/img/thumb/architecture.png",
+      "width": 160,
+      "height": 90
+    },
+    "image": {
+      "contextUrl": "https://docs.larkqueue.example/guide/getting-started",
+      "width": 1600,
+      "height": 900,
+      "byteSize": 182344
+    }
+  },
+  {
+    "url": "https://docs.larkqueue.example/img/retry-timeline.png",
+    "title": "Larkqueue retry timeline diagram",
+    "snippet": "Sample image: retry timeline of a Postgres-backed job queue with retries.",
+    "mime": "image/png",
+    "thumbnail": {
+      "url": "https://docs.larkqueue.example/img/thumb/retry-timeline.png",
+      "width": 160,
+      "height": 90
+    },
+    "image": {
+      "contextUrl": "https://docs.larkqueue.example/guide/retries",
+      "width": 1200,
+      "height": 600,
+      "byteSize": 90412
+    }
+  },
+  {
+    "url": "https://docs.larkqueue.example/img/dashboard.png",
+    "title": "Larkqueue dashboard diagram",
+    "snippet": "Sample image: dashboard of a Postgres-backed job queue with retries.",
+    "mime": "image/png",
+    "thumbnail": {
+      "url": "https://docs.larkqueue.example/img/thumb/dashboard.png",
+      "width": 160,
+      "height": 90
+    },
+    "image": {
+      "contextUrl": "https://docs.larkqueue.example/guide/observability",
+      "width": 1920,
+      "height": 1080,
+      "byteSize": 301877
+    }
+  }
+]

@@ -1,0 +1,4 @@
+{
+  "docs-only": { "title": "Larkqueue docs", "sites": ["docs.larkqueue.example"] },
+  "no-mirrors": { "title": "Everything but mirrors", "excludeSites": ["mirror-site.example"] }
+}

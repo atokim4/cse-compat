@@ -1,0 +1,14 @@
+{
+  "error": {
+    "code": 400,
+    "message": "Invalid value \"xml\" for query parameter 'alt'",
+    "errors": [
+      {
+        "message": "Invalid value \"xml\" for query parameter 'alt'",
+        "domain": "global",
+        "reason": "badRequest"
+      }
+    ],
+    "status": "INVALID_ARGUMENT"
+  }
+}

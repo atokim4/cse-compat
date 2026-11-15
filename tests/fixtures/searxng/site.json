@@ -1,0 +1,739 @@
+{
+ "query": "middleware site:hono.dev",
+ "results": [
+  {
+   "template": "default.html",
+   "title": "Middleware - Hono",
+   "content": "6 nov. 2026 ... Definition of Middleware ​ ... The user can register middleware using app.use or using app.HTTP_METHOD as well as the handlers. For this feature, ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    1
+   ],
+   "score": 1.0,
+   "category": "general",
+   "url": "https://hono.dev/docs/guides/middleware",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/guides/middleware",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Middleware - Hono",
+   "content": "6 nov. 2026 ... Web framework built on Web Standards for Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, Node.js, and others.",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    2
+   ],
+   "score": 0.5,
+   "category": "general",
+   "url": "https://hono.dev/docs/concepts/middleware",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/concepts/middleware",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Third-party Middleware - Hono",
+   "content": "6 nov. 2026 ... Utilities ​ · Bun Compress · Cap Checkpoint · Event Emitter · Geo · Guard Core (IP filtering, rate limiting, attack detection) · Hono Rate ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    3
+   ],
+   "score": 0.3333333333333333,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/third-party",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/third-party",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Combine Middleware - Hono",
+   "content": "6 nov. 2026 ... except ​. Runs all middleware except when the condition is met. You can pass a string or function as the condition. If multiple targets need to ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    4
+   ],
+   "score": 0.25,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/combine",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/combine",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Basic Auth Middleware - Hono",
+   "content": "6 nov. 2026 ... optional onAuthSuccess: (c: Context, username: string) => void | Promise<void> ​. A callback function invoked after successful authentication.",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    5
+   ],
+   "score": 0.2,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/basic-auth",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/basic-auth",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Logger Middleware - Hono",
+   "content": "6 nov. 2026 ... Logging Details ​. The Logger Middleware logs the following details for each request: ... By using the Logger Middleware, you can easily monitor ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    6
+   ],
+   "score": 0.16666666666666666,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/logger",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/logger",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "JWT Auth Middleware - Hono",
+   "content": "6 nov. 2026 ... The JWT Auth Middleware provides authentication by verifying the token with JWT. The middleware will check for an Authorization header if the ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    7
+   ],
+   "score": 0.14285714285714285,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/jwt",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/jwt",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Bearer Auth Middleware - Hono",
+   "content": "6 nov. 2026 ... The Bearer Auth Middleware provides authentication by verifying an API token in the Request header. The HTTP clients accessing the endpoint will ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    8
+   ],
+   "score": 0.125,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/bearer-auth",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/bearer-auth",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Mount Middleware - Hono",
+   "content": "6 nov. 2026 ... Usage ​ ... By default, the mounted application receives a new Request with the matched path prefix removed from its URL. A request to /itty- ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    9
+   ],
+   "score": 0.1111111111111111,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/mount",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/mount",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Cache Middleware - Hono",
+   "content": "6 nov. 2026 ... Caching authenticated responses ​ · Register cache() after your authentication middleware, so unauthenticated requests never reach it. · Set ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    10
+   ],
+   "score": 0.1,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/cache",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/cache",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Request ID Middleware - Hono",
+   "content": "6 nov. 2026 ... Request ID Middleware ​. Request ID Middleware generates a unique ID for each request, which you can use in your handlers. INFO. Node.js: This ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    11
+   ],
+   "score": 0.09090909090909091,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/request-id",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/request-id",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Language Middleware - Hono",
+   "content": "6 nov. 2026 ... The Language Detector middleware automatically determines a user's preferred language (locale) from various sources and makes it available via c ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    12
+   ],
+   "score": 0.08333333333333333,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/language",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/language",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "IP Restriction Middleware - Hono",
+   "content": "6 nov. 2026 ... IP Restriction Middleware ​. IP Restriction Middleware is middleware that limits access to resources based on the IP address of the user. Import ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    13
+   ],
+   "score": 0.07692307692307693,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/ip-restriction",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/ip-restriction",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Secure Headers Middleware - Hono",
+   "content": "6 nov. 2026 ... Secure Headers Middleware simplifies the setup of security headers. Inspired in part by the capabilities of Helmet, it allows you to control the ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    14
+   ],
+   "score": 0.07142857142857142,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/secure-headers",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/secure-headers",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "JWK Auth Middleware - Hono",
+   "content": "6 nov. 2026 ... The JWK Auth Middleware authenticates requests by verifying tokens using JWK (JSON Web Key). It checks for an Authorization header and other ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    15
+   ],
+   "score": 0.06666666666666667,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/jwk",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/jwk",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Timeout Middleware - Hono",
+   "content": "6 nov. 2026 ... The Timeout Middleware enables you to easily manage request timeouts in your application. It allows you to set a maximum duration for requests ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    16
+   ],
+   "score": 0.0625,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/timeout",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/timeout",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Server-Timing Middleware - Hono",
+   "content": "6 nov. 2026 ... Server-Timing Middleware ​. The Server-Timing Middleware provides performance metrics in the response headers. INFO. Note: On Cloudflare Workers ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    17
+   ],
+   "score": 0.058823529411764705,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/timing",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/timing",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "CORS Middleware - Hono",
+   "content": "6 nov. 2026 ... The value of \"Access-Control-Allow-Methods\" CORS header. You can also pass a callback function to dynamically determine allowed methods based on ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    18
+   ],
+   "score": 0.05555555555555555,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/cors",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/cors",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Method Override Middleware - Hono",
+   "content": "For example ​. Since HTML forms cannot send a DELETE method, you can put the value DELETE in the property named _method and send it. And the handler for app.",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    19
+   ],
+   "score": 0.05263157894736842,
+   "category": "general",
+   "url": "https://hono.dev/docs/middleware/builtin/method-override",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/middleware/builtin/method-override",
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "template": "default.html",
+   "title": "Factory Helper - Hono",
+   "content": "6 nov. 2026 ... createMiddleware() is shortcut of factory.createMiddleware() . This function will create your custom middleware. ts const messageMiddleware = ...",
+   "img_src": "",
+   "iframe_src": "",
+   "audio_src": "",
+   "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtqdbhYHusExEt8wW7PD0EtiPInUsIqatGG8X6itHrM1_rCLRkVPWAng",
+   "publishedDate": null,
+   "pubdate": "",
+   "length": null,
+   "views": "",
+   "author": "",
+   "metadata": "",
+   "priority": "",
+   "engines": [
+    "google cse"
+   ],
+   "open_group": false,
+   "close_group": false,
+   "positions": [
+    20
+   ],
+   "score": 0.05,
+   "category": "general",
+   "url": "https://hono.dev/docs/helpers/factory",
+   "engine": "google cse",
+   "parsed_url": [
+    "https",
+    "hono.dev",
+    "/docs/helpers/factory",
+    "",
+    "",
+    ""
+   ]
+  }
+ ],
+ "answers": [],
+ "corrections": [],
+ "infoboxes": [],
+ "suggestions": [],
+ "unresponsive_engines": [
+  [
+   "brave",
+   "Suspended: too many requests"
+  ],
+  [
+   "duckduckgo",
+   "CAPTCHA"
+  ]
+ ]
+}
