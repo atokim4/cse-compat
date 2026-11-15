@@ -20,7 +20,7 @@ This is a personal project. Three backends answer the searches: your own [SearXN
 - **SearXNG responses recorded from a real instance** (10 fixtures: web pages 1 and 2, `site:`, time range, language, images, empty, a typo, a 400, the 403 an instance without `json` sends) are replayed in `tests/searxng.test.ts`.
 - **Brave** is tested against a local HTTP server playing `api.search.brave.com`, with bodies written from the response types in Brave's own MCP server and the error body Brave support posted. I had no Brave key, so **the Brave backend has not been run against the real API yet.**
 
-182 vitest tests in total. Every defect found in code review has its own regression test (`tests/regressions.test.ts`, `tests/backend-regressions.test.ts`). The Search resource fields and types come from the official v1 reference and Google's discovery document (revision 20261112).
+184 vitest tests in total. Every defect found in code review has its own regression test (`tests/regressions.test.ts`, `tests/backend-regressions.test.ts`). The Search resource fields and types come from the official v1 reference and Google's discovery document (revision 20261112).
 
 ## Compatibility
 
