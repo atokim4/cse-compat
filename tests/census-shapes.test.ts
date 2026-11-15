@@ -30,6 +30,14 @@ describe("shapes seen in client code", () => {
     for (const start of [0, 10]) expect((await get(testApp(), `/customsearch/v1?cx=x&q=larkqueue&start=${String(start)}`)).status).toBe(200);
   });
 
+  it("camel: the lr=en it sends on every call is ignored and reported, not a 400", async () => {
+    const plain = await get(testApp(), "/customsearch/v1?cx=x&q=retries&start=1&num=10");
+    const camel = await get(testApp(), "/customsearch/v1?cx=x&q=retries&start=1&lr=en&num=10");
+    expect(camel.status).toBe(200);
+    expect(camel.res.headers.get(IGNORED_HEADER)).toBe("lr");
+    expect(camel.body.items.map((i: { link: string }) => i.link)).toEqual(plain.body.items.map((i: { link: string }) => i.link));
+  });
+
   it("MetaGPT: num above 10 is Google's 400", async () => {
     expect((await get(testApp(), "/customsearch/v1?cx=x&q=larkqueue&num=11")).status).toBe(400);
   });

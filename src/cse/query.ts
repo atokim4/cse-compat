@@ -1,7 +1,7 @@
 import type { DateRestrict, Feature, SearchBackend, SearchQuery } from "../backends/types.js";
 import type { Engine } from "../engines.js";
 import { errors } from "./errors.js";
-import type { MethodParams, ParamName } from "./params.js";
+import { PARAMS, type MethodParams, type ParamName } from "./params.js";
 
 /** Which backend feature a sent parameter needs. Parameters not listed here are handled by this server itself. */
 const FEATURE_OF: Partial<Record<ParamName, Feature>> = {
@@ -44,7 +44,7 @@ export interface BuiltQuery {
   query: SearchQuery;
   /**
    * Sent parameters that had no effect, sorted: ones the backend cannot honour, values this server
-   * cannot translate (e.g. a boolean cr expression), c2coff=1 and enableAlternateSearchHandler=true.
+   * cannot translate (e.g. a boolean cr expression, lr=en), c2coff=1 and enableAlternateSearchHandler=true.
    * Deprecated parameters that Google itself ignores (googlehost, relatedSite) are accepted silently.
    */
   ignored: string[];
@@ -125,7 +125,11 @@ export function buildQuery(params: MethodParams, sent: Partial<Record<ParamName,
   take("linkSite", () => assign(query, "linkSite", params.linkSite));
   take("rights", () => assign(query, "rights", params.rights));
   take("dateRestrict", () => assign(query, "dateRestrict", parseDateRestrict(params.dateRestrict ?? "")));
-  take("lr", () => assign(query, "language", normaliseLanguage(params.lr?.slice("lang_".length) ?? "")));
+  take("lr", () => {
+    const lr = params.lr?.trim().toLowerCase() ?? "";
+    if (!(PARAMS.lr.values as readonly string[]).includes(lr)) return undefined;
+    return assign(query, "language", normaliseLanguage(lr.slice("lang_".length)));
+  });
   // cr restricts and gl only boosts, so cr wins when both are sent.
   take("cr", () => assign(query, "country", parseCountryRestrict(params.cr ?? "")));
   take("gl", () => {
@@ -151,7 +155,9 @@ export function buildQuery(params: MethodParams, sent: Partial<Record<ParamName,
   for (const name of ["imgColorType", "imgDominantColor", "imgSize", "imgType"] as const) {
     if (has(name) && (query.searchType !== "image" || !supports(name))) ignored.add(name);
   }
-  if (params.c2coff === "1") ignored.add("c2coff");
+  // c2coff=1 (no Chinese variant merging) is not supported; unknown c2coff/filter values fall back to the default.
+  if (!["", "0"].includes(params.c2coff?.trim() ?? "")) ignored.add("c2coff");
+  if (!["", "0", "1"].includes(params.filter?.trim() ?? "")) ignored.add("filter");
   if (params.enableAlternateSearchHandler === "true") ignored.add("enableAlternateSearchHandler");
   if (!has("lr") && params.hl !== undefined && backend.features.has("language")) {
     // hl is the interface language; used only as a language preference when lr is absent.

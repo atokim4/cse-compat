@@ -111,7 +111,7 @@ export function createApp(deps: AppDeps): Hono {
         .slice(0, query.count)
         .map((hit) => toResult(hit, terms, query.searchType, request.params.snippetLength))
         .filter((item) => item !== undefined);
-      if (request.params.filter !== "0") items = dedupe(items);
+      if (request.params.filter?.trim() !== "0") items = dedupe(items);
 
       const body = buildSearch({
         baseUrl: baseUrlOf(c),

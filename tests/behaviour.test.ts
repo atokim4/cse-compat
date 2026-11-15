@@ -19,7 +19,6 @@ describe("parameter validation", () => {
     ["safe=bogus", "unknown safe value"],
     ["siteSearchFilter=x&siteSearch=a.example", "unknown siteSearchFilter"],
     ["imgSize=gigantic&searchType=image", "unknown imgSize"],
-    ["lr=lang_xx", "unknown language"],
   ])("%s (%s) → Google's generic 400", async (query) => {
     const { status, body } = await get(app, `/customsearch/v1?cx=e&q=retries&${query}`);
     expect(status).toBe(400);
@@ -99,6 +98,23 @@ describe("parameters a backend cannot honour", () => {
   it("an untranslatable value counts as ignored too", async () => {
     const { res } = await get(testApp(), "/customsearch/v1?cx=e&q=retries&cr=(countryUS|countryCA)&dateRestrict=yesterday&sort=title");
     expect(res.headers.get(IGNORED_HEADER)).toBe("cr, dateRestrict, sort");
+  });
+
+  it("lr, c2coff and filter are free strings in Google's discovery doc: unknown values are ignored, not a 400", async () => {
+    const plain = await get(testApp(), "/customsearch/v1?cx=e&q=larkqueue");
+    const links = (body: { items: { link: string }[] }) => body.items.map((i) => i.link);
+    for (const [query, name] of [["lr=lang_xx", "lr"], ["lr=en", "lr"], ["c2coff=2", "c2coff"], ["filter=yes", "filter"]]) {
+      const { status, res, body } = await get(testApp(), `/customsearch/v1?cx=e&q=larkqueue&${query}`);
+      expect(status, query).toBe(200);
+      expect(res.headers.get(IGNORED_HEADER), query).toBe(name);
+      expect(links(body), query).toEqual(links(plain.body));
+    }
+  });
+
+  it("lr is matched case-insensitively and trimmed, like before", async () => {
+    const { res, body } = await get(testApp(), "/customsearch/v1?cx=e&q=larkqueue&lr=%20LANG_RU%20");
+    expect(res.headers.get(IGNORED_HEADER)).toBeNull();
+    expect(body.items.map((i: { link: string }) => i.link)).toEqual(["https://docs.larkqueue.example/ru/guide/retries"]);
   });
 
   it("defaults and deprecated parameters are not reported", async () => {

@@ -80,19 +80,22 @@ const enumString = (values: readonly string[]) =>
     .refine((s) => values.includes(s))
     .optional();
 
+// Only parameters that Google's discovery document declares with an `enum` reject unknown values.
+// lr, c2coff and filter list their values in the description alone, so they are free strings there:
+// an unknown value is accepted and ignored (camel's SearchToolkit sends `lr=en` on every call).
 const methodSchema = z.object({
   q: optionalString,
   cx: optionalString,
   num: intString(1, 10).default(10),
   // uint32 in discovery. 0 is treated as 1 (both mean "first page" to clients that compute offsets).
   start: intString(0, 100).default(1).transform((n) => Math.max(1, n)),
-  c2coff: enumString(PARAMS.c2coff.values),
+  c2coff: optionalString,
   cr: optionalString,
   dateRestrict: optionalString,
   exactTerms: optionalString,
   excludeTerms: optionalString,
   fileType: optionalString,
-  filter: enumString(PARAMS.filter.values),
+  filter: optionalString,
   gl: optionalString,
   googlehost: optionalString,
   highRange: optionalString,
@@ -104,7 +107,7 @@ const methodSchema = z.object({
   imgType: enumString(PARAMS.imgType.values),
   linkSite: optionalString,
   lowRange: optionalString,
-  lr: enumString(PARAMS.lr.values),
+  lr: optionalString,
   orTerms: optionalString,
   relatedSite: optionalString,
   rights: optionalString,

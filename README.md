@@ -27,7 +27,7 @@ This is a personal project. Three backends answer the searches: your own [SearXN
 | Area | Behaviour |
 | --- | --- |
 | Paths | `/customsearch/v1` and `/customsearch/v1/siterestrict` (the same here; LangChain uses the second with `siterestrict=True`) |
-| Parameters | All 33 `cse.list` parameters from the discovery document are accepted and validated. `num` is 1-10; enum values are case-insensitive. |
+| Parameters | All 33 `cse.list` parameters from the discovery document are accepted and validated. `num` is 1-10; enum values are case-insensitive. Only parameters the discovery document declares with an `enum` (`safe`, `searchType`, `siteSearchFilter`, the four `img*`) reject an unknown value. `lr`, `c2coff` and `filter` are plain strings there, so an unknown value such as the `lr=en` camel sends is ignored and reported, not a 400. What Google itself does with `lr=en` is not verified (no key). |
 | Paging | Results stop at index 100. `start=91&num=10` works and `start=92&num=10` is a 400. Google's docs say "start + num > 100" is an error; I chose the reading that does not reject a page Google serves. `nextPage` never points past 100. |
 | `items` | Omitted when there are no results, as Google does. Clients that do `res.get("items", [])` keep working. |
 | Types | `searchInformation.totalResults` and `queries.*.totalResults` are strings; `searchTime`, `count` and `startIndex` are numbers. `pagemap.cse_thumbnail` width/height are strings. |
@@ -48,7 +48,7 @@ These are never silently dropped. Each request lists them in a response header:
 X-CSE-Compat-Ignored: highRange, lowRange, rights
 ```
 
-That covers parameters the backend lacks, values that cannot be translated (a boolean `cr` expression, `dateRestrict=yesterday`, `sort=title`), `c2coff=1` and unknown parameters. Set `CSE_STRICT=1` to turn them into a 400 that names them. `searchType=image` on a backend without image search is always a 400, because web results handed to an image client would break it later and in a less obvious place. The deprecated `googlehost` and `relatedSite` are accepted without a header, since Google marks them deprecated.
+That covers parameters the backend lacks, values that cannot be translated (a boolean `cr` expression, `dateRestrict=yesterday`, `sort=title`, `lr=en`), `c2coff=1` and unknown parameters. Set `CSE_STRICT=1` to turn them into a 400 that names them. `searchType=image` on a backend without image search is always a 400, because web results handed to an image client would break it later and in a less obvious place. The deprecated `googlehost` and `relatedSite` are accepted without a header, since Google marks them deprecated.
 
 Values a backend can only approximate (SearXNG has no "past 3 days", so `dateRestrict=d3` searches the past week) are listed in `X-CSE-Compat-Approximated` instead. They are never a 400, even in strict mode.
 
